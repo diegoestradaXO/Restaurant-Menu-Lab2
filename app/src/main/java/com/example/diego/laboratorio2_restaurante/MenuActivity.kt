@@ -7,7 +7,7 @@ import android.widget.AdapterView
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
-import com.example.diego.laboratorio2_restaurante.Models.appExtensio
+import com.example.diego.laboratorio2_restaurante.Models.AppExtension
 import kotlinx.android.synthetic.main.activity_menu.*
 
 
@@ -34,7 +34,7 @@ class MenuActivity: AppCompatActivity() {
 
                 //Mensaje que indica que se agregó
                 Toast.makeText(applicationContext, food[position] + " se ha agregado a tu lista...",Toast.LENGTH_SHORT).show()
-                appExtensio.add(food[position])
+                AppExtension.add(food[position])
             }
         }
 

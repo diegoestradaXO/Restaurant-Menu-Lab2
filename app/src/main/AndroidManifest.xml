@@ -3,7 +3,7 @@
           package="com.example.diego.laboratorio2_restaurante">
 
     <application
-            android:name=".Models.appExtensio"
+            android:name=".Models.AppExtension"
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
             android:label="@string/app_name"

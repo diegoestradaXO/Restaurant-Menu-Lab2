@@ -2,7 +2,7 @@ package com.example.diego.laboratorio2_restaurante.Models
 
 import android.app.Application
 
-class appExtensio: Application(){
+class AppExtension: Application(){
 
     companion object:MenuOrder{
 
