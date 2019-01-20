@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="345dp" android:layout_height="550dp"
+                  android:orientation="vertical"
+                  android:layout_alignParentEnd="true" android:layout_alignParentTop="true"
+                  android:layout_marginTop="0dp" android:layout_marginEnd="21dp">
+        <TextView
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="PEDIDO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView" android:textSize="30sp"
+                app:fontFamily="sans-serif-black"/>
+
+        <ListView
+                android:layout_marginTop="32dp"
+                android:background="@android:color/white"
+                android:layout_gravity="center"
+                android:layout_width="276dp"
+                android:id="@+id/pedido"
+                android:layout_height="260dp"/>
+
+
+        <LinearLayout
+
+                android:layout_gravity="center"
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <Button
+
+                    android:layout_gravity="center"
+                    android:text="Borrar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/limpiar"/>
+
+            <Button
+
+                    android:layout_marginLeft="@android:dimen/app_icon_size"
+                    android:layout_gravity="center"
+                    android:text="Hacer Pedido"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/ordenar"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center"
+                      android:layout_marginTop="@android:dimen/app_icon_size"
+                      android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+            <Button
+                    android:layout_marginLeft="50dp"
+                    android:layout_gravity="right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/home" android:text="INICIO"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:background="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <LinearLayout android:layout_width="345dp" android:layout_height="550dp"
+                  android:orientation="vertical"
+    >
+        <TextView
+                android:layout_marginTop="@android:dimen/app_icon_size"
+                android:textColor="@android:color/black"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Diego´s Pizzería"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textSize="40dp"
+        />
+
+        <ImageView
+                android:background="@android:color/transparent"
+
+                android:layout_gravity="center"
+                android:layout_width="170dp"
+                android:layout_height="212dp"
+                android:src="@drawable/pizza"
+
+        />
+
+        <Button
+                android:layout_marginTop="@android:dimen/notification_large_icon_height"
+                android:layout_gravity="center"
+                android:text="MENU"
+                android:layout_width="118dp"
+                android:layout_height="60dp" android:id="@+id/menu"/>
+
+        <Button
+                android:layout_width="118dp"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:text="ORDEN" android:id="@+id/orden"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
